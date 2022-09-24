@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>Created by Ciag</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./assets/css/style.css">
+<body>
+
+<!-- Navbar (Sits on top) -->
+<div class="top bar white wide padding card">
+<a href="#home" class="bar-item button"><b>TG</b> Construction Corporation</a>
+<!-- Float links to the right. Hide them on small screens -->
+<div class="right hide-small">
+<a href="#projects" class="bar-item button">Projects</a>
+<a href="#about" class="bar-item button">About</a>
+<a href="#contact" class="bar-item button">Contact</a>
+</div>
+</div>
+
+<!-- Page Start -->
+<div id="home" class="content" style="max-width:1564px">
+
+<!-- Image -->
+<div class="display-container content" style="max-width:1500px;">
+<img class="image" src="./assets/img/landmark.jpg" alt="Architecture" width="100%">
+<div class="display-middle margin-top center">
+<h1 class="xxlarge text-white wide">
+  <span class="padding black opacity-min"><b>TG</b></span>
+  <span class="hide-small text-light-grey">Construction Corporation</span>
+</h1>
+</div>
+</div>
+
+<!-- Projects -->
+<div id="projects" class="container padding-32">
+<h2 class="border-bottom border-light-grey padding-16">Projects</h2>
+</div>
+
+<div class="row-padding">
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Spring</div>
+  <img src="./assets/img/house6.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Summer</div>
+  <img src="./assets/img/house7.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Autumn</div>
+  <img src="./assets/img/house8.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Winter</div>
+  <img src="./assets/img/house9.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Cầu Vàng</div>
+  <img src="./assets/img/bridge1.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Cầu Đông Hải</div>
+  <img src="./assets/img/bridge2.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Millau Viaduct</div>
+  <img src="./assets/img/bridge3.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<div class="display-container">
+  <div class="display-topleft black padding">Cầu kính</div>
+  <img src="./assets/img/bridge4.jpg" alt="House" style="width:100%;cursor:pointer"
+  onclick="onClick(this)" class="modal-hover-opacity">
+</div>
+</div>
+
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
+
+</div>
+
+<!-- About -->
+<div id="about" class="container padding-32">
+<h2 class="border-bottom border-light-grey padding-16">About</h2>
+<h4><b>Danh hiệu - Giải thưởng quốc tế</b></h4>
+<p>
+    - Top 15 doanh nghiệp viễn thông phát triển nhanh nhất thế giới
+</p>
+<p>
+    - Xếp thứ 28 trên top 150 nhà mạng có giá trị nhất thế giới, với giá trị thương hiệu đạt 5,8 tỷ USD, đứng số 1 tại Đông Nam Á và thứ 9 tại Châu Á
+</p>
+<p>
+    - Chứng nhận “Best in Test” từ Công ty đo kiểm viễn thông hàng đầu thế giới Umlaut 2020
+</p>
+<p>
+    - Giải Bạc sản phẩm viễn thông mới xuất sắc nhất của giải thưởng Kinh doanh quốc tế 2020 cho gói data siêu tốc ST15K
+</p>
+<p>
+    - Nhà cung cấp dịch vụ của năm tại các thị trường đang phát triển năm 2009 và Nhà cung cấp dịch vụ data di động tốt nhất Việt Nam – 2019 (Frost & Sullivan)
+</p>
+<p>
+    - Giải bạc hạng mục "Dịch vụ khách hàng mới của năm“ trong hệ thống giải thưởng quốc tế Stevie Awards 2014 cho Dịch vụ tổng đài tiếng dân tộc.
+</p>
+</div>
+
+<div class="row-padding grayscale">
+
+<div class="col l3 m6 margin-bottom">
+<img src="./assets/img/team2.jpg" alt="John" style="width:100%">
+<h3>John Doe</h3>
+<p class="opacity">CEO & Founder</p>
+<p>Trong một thế giới đang thay đổi rất nhanh chóng, lộ trình duy nhất đưa bạn đến thất bại là không dám mạo hiểm.</p>
+<p><button class="button light-grey block">Contact</button></p>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<img src="./assets/img/team1.jpg" alt="Jane" style="width:100%">
+<h3>Jane Doe</h3>
+<p class="opacity">Secretary</p>
+<p>Tôi có một thước đo cho cuộc sống của mình. Đó là ‘tôi có đang tốt hơn tôi của năm trước hay không?</p>
+<p><button class="button light-grey block">Contact</button></p>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<img src="./assets/img/team3.jpg" alt="Mike" style="width:100%">
+<h3>Mike Ross</h3>
+<p class="opacity">Architect</p>
+<p>Bạn cung cấp cho khách hàng sản phẩm và dịch vụ tốt nhất bạn có, lợi nhuận sẽ theo bạn như hình với bóng.</p>
+<p><button class="button light-grey block">Contact</button></p>
+</div>
+
+<div class="col l3 m6 margin-bottom">
+<img src="./assets/img/team4.jpg" alt="Dan" style="width:100%">
+<h3>Dan Star</h3>
+<p class="opacity">Architect</p>
+<p>Nếu bạn nhân đôi số thí nghiệm bạn làm mỗi năm, bạn sẽ tăng gấp đôi khả năng sáng tạo của mình.</p>
+<p><button class="button light-grey block">Contact</button></p>
+</div>
+
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="container padding-top-32">
+
+<h2 class="border-bottom border-light-grey padding-16">Contact</h2>
+<p>Lets get in touch and talk about your next project</p>
+
+<form action="/action_page.php" target="_blank">
+<input class="input border" type="text" placeholder="Name" required name="Name">
+<input class="input section border" type="text" placeholder="Email" required name="Email">
+<input class="input section border" type="text" placeholder="Subject" required name="Subject">
+<input class="input section border" type="text" placeholder="Comment" required name="Comment">
+<button class="button black section" type="submit">
+<i class="fa fa-paper-plane"></i> SEND MESSAGE
+</button>
+</form>
+
+<img src="./assets/img/viettel.jpg" class="image" style="width:100%">
+
+<footer class="center black panel padding-16">
+<p>Powered by <a href="#" title="Ciag" target="_blank" class="hover-text-green">@Ciag</a></p>
+</footer>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+  function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+  
+
+</body>
+</html>
